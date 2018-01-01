@@ -547,6 +547,12 @@
                     this.days = 0; 
                     this.now = true; 
                     break;
+                case "two days ago": 
+                    this.days = -2; 
+                    break;
+		 case "day after tomorrow": 
+                    this.days = +2; 
+                    break;
                 }
             };
         },
